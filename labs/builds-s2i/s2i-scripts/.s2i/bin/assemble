@@ -36,6 +36,8 @@ else
     fi
   fi
 fi
-
+#cat /usr/libexec/s2i/environment
+#echo "MY_ENV=hello" >> /usr/libexec/s2i/environment
+env
 # Fix source directory permissions
 fix-permissions ./

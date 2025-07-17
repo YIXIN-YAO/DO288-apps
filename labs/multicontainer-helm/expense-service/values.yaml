@@ -5,6 +5,6 @@ postgres:
 
 expenseService:
   replicaCount: 1
-  image: "TODO"
-  host: "TODO"
+  image: "quay.io/redhattraining/ocpdev-expense-service:4.14"
+  host: "expense-service"
   domain: "apps.ocp4.example.com"
